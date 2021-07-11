@@ -1,0 +1,24 @@
+title: にゃあ
+description: >-
+  概要
+copyright:
+  year: 2021
+  name: nakasu
+
+author:
+  name:  nakasu
+  email: unkohacker@gmail.com
+
+
+## 変換対象から除外
+exclude:
+  - .gitignore
+  - bs-config.js
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - Procfile
+  - REAADME.md
+
+plugins:
+  - jekyll-tidy
